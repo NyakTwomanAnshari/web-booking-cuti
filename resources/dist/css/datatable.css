@@ -1,0 +1,36 @@
+.dt-buttons{
+    margin: 3px 0px 20px 0px;
+    position: absolute;
+}
+   
+.dt-buttons a.dt-button {
+    background-color: #3d9970;
+    color: #fff;
+    /* position: absolute; */
+    border: none;
+    padding: 7px 12px;
+    margin-right: 5px;
+    text-decoration: none;
+    border-radius: 2px;
+    border: none;
+    font-size: 13px;
+}
+
+.dt-buttons a.dt-button:active {
+    opacity: 0.8;
+}
+
+.dt-buttons a.dt-button:hover{
+    background: #297d58!important;
+}
+
+@media screen and (max-width: 767px){
+    .dt-buttons{
+        margin: 0px 0px 20px 0px;
+        position: relative;
+        text-align: center;
+        border: 1px solid #ced4da;
+        border-radius: 4px;
+        padding: 13px;
+    }
+}
